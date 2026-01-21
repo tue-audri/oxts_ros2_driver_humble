@@ -31,7 +31,7 @@ def generate_launch_description():
     ins_param_path = os.path.join(ins_dir, "config", parameters_file_name)
     with open(ins_param_path, "r") as f:
         ins_params = yaml.safe_load(f)["oxts_ins"]["ros__parameters"]
-    yaml_frameid = ins_params.pop("frame_id","oxts_link")
+    yaml_frameid = ins_params.pop("frame_id","imu_link")
     yaml_lrf = ins_params.pop("lrf_source",2)
     
     use_sim_time = LaunchConfiguration("use_sim_time", default="False")

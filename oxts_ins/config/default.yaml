@@ -48,7 +48,7 @@ oxts_ins:
     pub_imu_flag            : true
     imu_topic               : "imu"
     ### Broadcast TF messages for rviz visualisation
-    pub_tf_flag             : true
+    pub_tf_flag             : false
     ### Source of the local reference frame
     #### 0 - NCom LRF
     #### 1 - Set automatically from first NCom packet

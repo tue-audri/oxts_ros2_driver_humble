@@ -22,4 +22,4 @@ oxts_driver:
 
     # 0 => Timestamped by the ROS node time (future default)
     # 1 => Timestamped from NCom
-    timestamp_mode : 1
+    timestamp_mode : 0
